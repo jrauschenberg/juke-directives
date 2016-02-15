@@ -1,4 +1,5 @@
         <div ng-show="getCurrentSong()" ng-controller="PlayerCtrl">
+          <div>{{getCurrentSong().name}}</div>
           <div class="pull-left">
             <button class="btn btn-default" ng-click="previous()">
               <span class="glyphicon glyphicon-step-backward"></span>
